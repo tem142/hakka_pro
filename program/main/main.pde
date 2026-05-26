@@ -1,5 +1,10 @@
+// 現状実行部とsynth部を分けている
+
 import ddf.minim.*;
 import ddf.minim.ugens.*;
+
+
+
 
 Minim minim;
 AudioOutput out;
