@@ -1,6 +1,6 @@
 // C++ code
 //
-const int LED_PIN = 8;
+const int LED_PIN = 7;
 const int BTN_PINS[] = {4, 3, 2};
 const int NUM_BTNS = 3;
 
@@ -34,11 +34,11 @@ void loop()
 void blinkLED(int count){
   for(int j = 0; j < count; j++){
   digitalWrite(LED_PIN, HIGH);
-  delay(40);
+  delay(250);
   digitalWrite(LED_PIN, LOW);
   
     if(j < count -1){
-    delay(40);
+    delay(500);
     }
   }
 }
