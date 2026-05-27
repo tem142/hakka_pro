@@ -1,8 +1,8 @@
 // C++ code
 //
 const int LED_PIN = 7;
-const int BTN_PINS[] = {4, 3, 2};
-const int NUM_BTNS = 3;
+const int BTN_PINS[] = {4, 3, 2, 1};
+const int NUM_BTNS = 4;
 
 void setup()
 {
